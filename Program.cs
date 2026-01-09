@@ -9,3 +9,10 @@ nama = Console.ReadLine();
 
 Console.Write("Nilai: ");
 nilai = int.Parse(Console.ReadLine());
+
+if (nilai >= 75){
+    Console.WriteLine("LULUS woy");
+}
+else {
+    Console.WriteLine("Sory Rak lulus we");
+}
